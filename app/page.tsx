@@ -27,6 +27,7 @@ export default function Home() {
           transition={{ duration: 0.5 }}
           className="w-full text-center"
         >
+          
           <div className="mb-12 flex flex-col items-center">
             <div className="mb-6 w-20 h-20 flex items-center justify-center rounded-xl bg-gradient-to-br from-emerald-600 to-teal-800">
               <Vote className="h-10 w-10 text-white" />

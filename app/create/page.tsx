@@ -38,6 +38,7 @@ import { uploadToCloudinary } from "@/utils/cloudinary";
 import { motion } from "framer-motion";
 import { cn } from "@/lib/utils";
 
+
 export default function CreateElectionPage() {
   const router = useRouter();
   const [step, setStep] = useState(1);

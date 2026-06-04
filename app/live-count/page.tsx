@@ -88,6 +88,7 @@ export default function LiveCountPage() {
         ? new URLSearchParams(window.location.search).get("code")
         : null;
 
+        
     if (codeFromURL) {
       fetchElectionFromCode(codeFromURL);
     }
