@@ -1,7 +1,7 @@
 import { ethers } from "ethers";
 import voting from "../voting.json";
 
-export const CONTRACT_ADDRESS = "0x384E50ABA4EEaC706DBfbCA5d1C89B51fa634A98";
+export const CONTRACT_ADDRESS = "0x3f1e5dd8292c3afe524fe8b20315327187be8e4bb70d89f9d23f33b8eb3f2247";
 export const CONTRACT_ABI = voting.abi;
 
 // Daftar RPC Sepolia fallback — dicoba satu per satu kalau gagal
